@@ -1,0 +1,17 @@
+//HTML (lenguaje de marcas de hipertexto) es un lenguaje, pero no es un lenguaje de programación. Un lenguaje de programación pues para ser considerado como tal tiene que tener variables y funciones y HTML no las tiene. HTML es un lenguaje para la estructura de nuestros sitios web. Sirve para dar estructura, orden y representar información a los usuarios.
+
+En Visual Studio Code escribimos html:5 o ! (ya en desuso) y se nos crea la estuctura básica de HTML, que es la siguiente:
+
+
+    <!DOCTYPE html>  // aquí se especifica la versión de HTML estamos utilizando
+    <html lang="en">  // aquí el navegador o va a identificar lenguaje, en español sería es
+    <head class="header">  // el header da la información que le va a dar al navegador
+        <meta charset="UTF-8">  // aplica un encoding especial para que se muestren acentos, eñes y otros caracteres
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  // información más interna del navegador, cómo debe de mostrarse el contenido
+        <title>Streak Tracker</title>  // muy útil para el SEO
+    </head>
+
+    <body>
+        
+    </body>
+    </html>
