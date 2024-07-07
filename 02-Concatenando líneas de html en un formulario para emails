@@ -1,0 +1,14 @@
+Concatenando líneas de html en un formulario para emails
+
+  $contenido = '<html>';
+  $contenido .= '<p>Tienes un nuevo mensaje </p>';
+  $contenido .= '<p>Nombre: ' . $respuestas['nombre'] . '</p>';
+  $contenido .= '<p>Email: ' . $respuestas['email'] . '</p>';
+  $contenido .= '<p>Teléfono: ' . $respuestas['telefono'] . '</p>';
+  $contenido .= '<p>Mensaje: ' . $respuestas['mensaje'] . '</p>';
+  $contenido .= '<p>Vende o Compra: ' . $respuestas['tipo'] . '</p>';
+  $contenido .= '<p>Precio o Presupuesto ' . $respuestas['precio'] . '€ </p>';
+  $contenido .= '<p>Prefiere ser contactado por: ' . $respuestas['contacto'] . '</p>';
+  $contenido .= '<p>Fecha para contactar: ' . $respuestas['fecha'] . '</p>';
+  $contenido .= '<p>Hora para contactar: ' . $respuestas['hora'] . '</p>';
+  $contenido .= '</html>';
