@@ -1,0 +1,3 @@
+          $contenido = '<html>';
+          $contenido .= '<p>Tienes un nuevo mensaje </p>';
+          $contenido .= '</html>';
